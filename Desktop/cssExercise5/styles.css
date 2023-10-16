@@ -7,6 +7,10 @@
     border:orange solid;
 }
 
+.menu {
+    margin-left: 20px;
+}
+
 /* background color */
 *{
     background-color: black;
