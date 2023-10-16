@@ -7,13 +7,22 @@
     border:orange solid;
 }
 
+a:link {
+    color: #FF0000;
+  }
+
+  a:visited {
+    color: #00FF00;
+  }
+  
+
 .menu {
     margin-left: 20px;
 }
 
 /* background color */
 *{
-    background-color: black;
+    background-color: white;
 }
 
 /* headings in italics & font to Times N. Romans */
@@ -23,18 +32,21 @@ h1{
     color: orange;
     text-decoration: underline;
     text-align: center;
+    padding: 40px;
 }
 
 .porsche, .spider{
     height: 150px;
     width: 250px;
     color: red;
+    padding: 40px;
 }
 
 .image-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: relative;
+    padding: 40px;
 }
 
 .mclaren {
@@ -42,4 +54,13 @@ h1{
     width: 250px;
     margin-top: 100px;
     color: green;
+    padding: 40px;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: black;
+    }
+  }
+
+  
