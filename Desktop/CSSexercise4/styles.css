@@ -1,4 +1,36 @@
+#main {
+    margin: 30px;
+    text-align: center;
+}
+header h2 {
+    text-decoration-color: aqua;
+}
+.nav a{
+    text-decoration: none aliceblue;
+    padding: 1rem;
+}
+aside > p,h5 {
+    border: 10px cornflowerblue dotted;
+}
+aside + button{
+    text-decoration: cornflowerblue;
+}
+p ~ article {
+    background-color: coral;
+}
+nav{
+    background-color: black;
+    text-align: center;
+}
+table ,th,td{
+    border: 2px burlywood solid;
+    margin:auto;
+}
 
+* {
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
