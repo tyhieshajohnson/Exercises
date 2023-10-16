@@ -104,6 +104,10 @@ article::before {
     content: url('https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif');
 }
 
+article::after {
+    content: url('https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif');
+}
+
 
 
 
