@@ -1,37 +1,108 @@
+/*  */
 #main {
     margin: 30px;
     text-align: center;
 }
+
+/*  */
 header h2 {
     text-decoration-color: aqua;
 }
+
+/*  */
 .nav a{
     text-decoration: none aliceblue;
     padding: 1rem;
 }
+
+/*  */
 aside > p,h5 {
     border: 10px cornflowerblue dotted;
 }
+
+/*  */
 aside + button{
     text-decoration: cornflowerblue;
 }
+
+/*  */
 p ~ article {
     background-color: coral;
 }
+
+/*  */
 nav{
     background-color: black;
     text-align: center;
 }
+
+/*  */
 table ,th,td{
     border: 2px burlywood solid;
     margin:auto;
 }
 
+/*Universal Selector  */
 * {
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*  */
+h3 {
+    background-color: yellow;
+    padding: 2rex;
+    display: none;
+}
+
+/*  */
+#hover:hover h3 {
+    display:block;
+}
+
+/* Set the anchor element to be purple */
+a:active {
+    color: purple;
+}
+
+/* changes text color of all children elements */
+tr:first-child{
+    color: yellowgreen;
+}
+
+/* 14. change */
+tr td:first-child:hover{
+    color: crimson;
+}
+
+/* 15. change i elements to color: blue */
+p i:first-child{
+    color: blue;
+}
+
+/*  */
+p:first-child i{
+    color: peru;
+}
+
+/*  */
+p::selection{
+    color: yellowgreen;
+}
+
+/*  */
+.paragraph::first-line {
+    color: red;
+}
+
+.paragraph::first-letter{
+    color: blue;
+}
+
+/*  */
+article::before {
+    content: url('https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif');
+}
 
 
 
