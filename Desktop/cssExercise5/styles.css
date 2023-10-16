@@ -1,0 +1,31 @@
+/* nav bar */
+.nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border:orange solid;
+}
+
+/* background color */
+*{
+    background-color: black;
+}
+
+/* headings in italics & font to Times N. Romans */
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+
+img{
+    display: inline-block
+    max-width: 50%;
+}
