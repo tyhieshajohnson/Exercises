@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.card{
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    background-color: darkgrey;
+    margin: 20px auto;
+    position: relative;
+    border: 1px solid;
+    border-radius: 4px;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+}
+/* All children to have the 
+ame width as their parent */
+:is(.front, .back, img[alt="Profile"] ){
+    width: 100%;
+} 
+img[alt="Profile"] {
+    aspect-ratio: 1/1;
+}
+.front, .back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+}
+.back {
+    z-index: -1;
+}
+.front{
+    aspect-ratio: 1/1;
+    background-image: linear-gradient(to right, green, red);
+    color: white;
+}
+.card:hover .front{
+    transform: translateY(-180px);
+    opacity: 0;
+}
