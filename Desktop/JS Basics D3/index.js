@@ -9,7 +9,7 @@ let multiplication =
 // modulus
 // what is 6 divided by 3 - it divides perfecly, it results in the remainder being either 0 or 1
 // you declare modulus with a percentage
-let modulus = 10%2
+let modPercentage = 10%2
 
 // increment
 for (let x = 0; x<10;x++)
